@@ -3155,6 +3155,54 @@ a.button.createDuplicate.subtle:hover {
   color: white;
   background: rgba(157, 166, 34, 0.652);
 }
+button.createSame,
+a.button.createSame {
+  color: #4f4040;
+  background: rgba(54, 162, 194, 0.652);
+  -webkit-transition: 0.2s background, 0.2s -webkit-transform;
+  transition: 0.2s background, 0.2s -webkit-transform;
+  transition: 0.2s background, 0.2s transform;
+  transition: 0.2s background, 0.2s transform, 0.2s -webkit-transform;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+button.createSame:hover,
+a.button.createSame:hover {
+  background: rgba(69, 173, 204, 0.652);
+}
+button.createSame:active,
+a.button.createSame:active,
+button.createSame.active,
+a.button.createSame.active {
+  background: rgba(48, 145, 174, 0.652);
+}
+button.createSame.subtle,
+a.button.createSame.subtle {
+  color: #4d4d4d;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+button.createSame.subtle:hover,
+a.button.createSame.subtle:hover {
+  color: rgba(48, 145, 174, 0.652);
+}
+.theme-dark button.createSame.subtle,
+.theme-dark a.button.createSame.subtle {
+  color: #999999;
+  background: none;
+}
+.theme-dark button.createSame,
+.theme-dark a.button.createSame {
+  background: rgba(48, 145, 174, 0.652);
+  color: white;
+}
+.theme-dark button.createSame:hover,
+.theme-dark a.button.createSame:hover {
+  color: white;
+  background: rgba(54, 162, 194, 0.652);
+}
 button.createLogic,
 a.button.createLogic {
   color: white;
