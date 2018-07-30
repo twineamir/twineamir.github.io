@@ -3155,54 +3155,6 @@ a.button.createDuplicate.subtle:hover {
   color: white;
   background: rgba(157, 166, 34, 0.652);
 }
-button.createSame,
-a.button.createSame {
-  color: #4f4040;
-  background: rgba(54, 162, 194, 0.652);
-  -webkit-transition: 0.2s background, 0.2s -webkit-transform;
-  transition: 0.2s background, 0.2s -webkit-transform;
-  transition: 0.2s background, 0.2s transform;
-  transition: 0.2s background, 0.2s transform, 0.2s -webkit-transform;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
-}
-button.createSame:hover,
-a.button.createSame:hover {
-  background: rgba(69, 173, 204, 0.652);
-}
-button.createSame:active,
-a.button.createSame:active,
-button.createSame.active,
-a.button.createSame.active {
-  background: rgba(48, 145, 174, 0.652);
-}
-button.createSame.subtle,
-a.button.createSame.subtle {
-  color: #4d4d4d;
-  background: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: none;
-}
-button.createSame.subtle:hover,
-a.button.createSame.subtle:hover {
-  color: rgba(48, 145, 174, 0.652);
-}
-.theme-dark button.createSame.subtle,
-.theme-dark a.button.createSame.subtle {
-  color: #999999;
-  background: none;
-}
-.theme-dark button.createSame,
-.theme-dark a.button.createSame {
-  background: rgba(48, 145, 174, 0.652);
-  color: white;
-}
-.theme-dark button.createSame:hover,
-.theme-dark a.button.createSame:hover {
-  color: white;
-  background: rgba(54, 162, 194, 0.652);
-}
 button.createLogic,
 a.button.createLogic {
   color: white;
@@ -5095,54 +5047,6 @@ body.theme-dark .cm-s-default .CodeMirror-matchingbracket {
 /* color used to call out text, e.g. highlighting search matches */
 /* color used for borders around form elements */
 /* tag colors */
-.tags .toolbar {
-  margin: 0.5rem 0;
-}
-.tags .toolbar button {
-  height: 2.5rem;
-  width: 2.5rem;
-  margin: 0 0.25rem;
-}
-.tags .toolbar button:first-child {
-  margin-left: 0.5rem;
-}
-.tags .toolbar button:last-child {
-  margin-right: 0.5rem;
-}
-.tags .toolbar button.gray {
-  background: gray;
-}
-.tags .toolbar button.red {
-  background: #c20a0a;
-}
-.tags .toolbar button.orange {
-  background: #c2570a;
-}
-.tags .toolbar button.yellow {
-  background: #c2a30a;
-}
-.tags .toolbar button.green {
-  background: #0ac247;
-}
-.tags .toolbar button.blue {
-  background: #0a60c2;
-}
-.tags .toolbar button.purple {
-  background: #6c0ac2;
-}
-/* base background color */
-/* a dark transparent color used to fade out inaccessible UI, as on a modal */
-/* base foreground color for text */
-/* color for emphasized text */
-/* link color */
-/* color associated with creating new things, or successful actions */
-/* color associated with creating logic nodes */
-/* color associated with creating avatar nodes*/
-/* color associated with creating user nodes*/
-/* color associated with dangerous actions such as deletion */
-/* color used to call out text, e.g. highlighting search matches */
-/* color used for borders around form elements */
-/* tag colors */
 .shadow-tiny {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
@@ -5196,7 +5100,7 @@ body.theme-dark .cm-s-default .CodeMirror-matchingbracket {
   z-index: 3;
   font-weight: bold;
   color: white;
-  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 #storyEditView .passageA .excerpt {
   position: relative;
@@ -5289,7 +5193,7 @@ body.theme-dark .cm-s-default .CodeMirror-matchingbracket {
   z-index: 3;
   font-weight: bold;
   color: white;
-  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 #storyEditView .passageU .excerpt {
   position: relative;
@@ -5382,7 +5286,7 @@ body.theme-dark .cm-s-default .CodeMirror-matchingbracket {
   z-index: 3;
   font-weight: bold;
   color: white;
-  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 #storyEditView .passageL .excerpt {
   position: relative;
