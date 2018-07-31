@@ -3754,6 +3754,7 @@ body.mouseScrolling * {
 }
 #aboutDialog .content h4 + p {
   margin-top: 0;
+  text-align: left;
 }
 /* base background color */
 /* a dark transparent color used to fade out inaccessible UI, as on a modal */
