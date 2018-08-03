@@ -4755,6 +4755,7 @@ body.draggingPassages #storyEditView * {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  font-family: fantasy;
   margin: 0.25rem;
   font-size: 1rem;
 }
