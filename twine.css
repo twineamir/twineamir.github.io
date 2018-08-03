@@ -4761,6 +4761,19 @@ body.draggingPassages #storyEditView * {
 #passageEditModal .passageTags {
   margin: 0.5rem 0;
 }
+div {
+  font-family: fantasy;
+}
+trans {
+  color: rgba(48, 45, 45, 0.582);
+}
+var {
+  color: rgba(90, 7, 191, 0.858);
+}
+field {
+  color: #f5aa1f;
+  font-family: 'Times New Roman', Times, serif;
+}
 ul.CodeMirror-hints {
   position: absolute;
   list-style-type: none;
